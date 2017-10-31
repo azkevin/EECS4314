@@ -27,7 +27,7 @@ contain mysql-server-mysql-8.0.2/sql CACHE.ss
 contain mysql-server-mysql-8.0.2/sql EXECUTION.ss
 contain mysql-server-mysql-8.0.2/sql OTHER.ss
 contain mysql-server-mysql-8.0.2/sql PARSE_TREE.ss
-
+contain mysql-server-mysql-8.0.2/sql SECURITY.ss
 
 contain EXECUTION.ss mysql-server-mysql-8.0.2/sql/sql_executor.cc
 contain EXECUTION.ss mysql-server-mysql-8.0.2/sql/sql_executor.h
@@ -104,6 +104,8 @@ contain PARSER.ss mysql-server-mysql-8.0.2/sql/rpl_trx_boundary_parser.cc
 contain PARSER.ss mysql-server-mysql-8.0.2/sql/rpl_trx_boundary_parser.h 
 contain PARSER.ss mysql-server-mysql-8.0.2/sql/sql_parse.cc 
 contain PARSER.ss mysql-server-mysql-8.0.2/sql/sql_parse.h 
+
+contain SECURITY.ss mysql-server-mysql-8.0.2/sql/auth
 
 contain LIBRARY.ss mysql-server-mysql-8.0.2/mysys_ssl
 contain LIBRARY.ss mysql-server-mysql-8.0.2/mysys
@@ -500,7 +502,6 @@ contain OTHER.ss mysql-server-mysql-8.0.2/sql/filesort_utils.cc
 contain OTHER.ss mysql-server-mysql-8.0.2/sql/ndb_component.h
 contain OTHER.ss mysql-server-mysql-8.0.2/sql/bounded_queue.h
 contain OTHER.ss mysql-server-mysql-8.0.2/sql/ndb_dist_priv_util.h
-contain OTHER.ss mysql-server-mysql-8.0.2/sql/auth
 
 contain OTHER.ss mysql-server-mysql-8.0.2/sql/sql_crypt.h
 contain OTHER.ss mysql-server-mysql-8.0.2/sql/opt_hints.h
