@@ -8,6 +8,9 @@
 - Report: [[PDF]](https://github.com/azkevin/EECS4314/blob/master/A2/EECS4314%20A2%20Report%20(TabsVsSpaces).pdf) [[DOCX]](https://github.com/azkevin/EECS4314/blob/master/A2/EECS4314%20A2%20Report%20(TabsVsSpaces).docx)
 - Slides: [[PDF]](https://github.com/azkevin/EECS4314/blob/master/A2/EECS4314%20A2%20Slides%20(TabsvsSpaces).pdf) [[PPTX]](https://github.com/azkevin/EECS4314/blob/master/A2/EECS4314%20A2%20Slides%20(TabsvsSpaces).pptx)
 
+- [Containment File](https://github.com/azkevin/EECS4314/blob/master/A2/A2Data/MySQL_UnderstandFileDependency.contain)
+- [ls.ta File](https://github.com/azkevin/EECS4314/blob/master/A2/A2Data/MySQL_UnderstandFileDependency.ls.ta)
+
 ## Assignment 3: Dependency Extraction
 
 - Report: In progress (Nov 20, 2017)
