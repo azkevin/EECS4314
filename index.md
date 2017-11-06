@@ -5,7 +5,7 @@
 
 ## Assignment 2: Concrete Architecture
 
-- Report: In progress (Nov 6, 2017)
+- Report: [[PDF]](https://github.com/azkevin/EECS4314/blob/master/A2/EECS4314%20A2%20Report%20(TabsvsSpaces).pdf) [[PPTX]](https://github.com/azkevin/EECS4314/blob/master/A2/EECS4314%20A2%20Report%20(TabsvsSpaces).docx)
 - Slides: [[PDF]](https://github.com/azkevin/EECS4314/blob/master/A2/EECS4314%20A2%20Slides%20(TabsvsSpaces).pdf) [[PPTX]](https://github.com/azkevin/EECS4314/blob/master/A2/EECS4314%20A2%20Slides%20(TabsvsSpaces).pptx)
 
 ## Assignment 3: Dependency Extraction
