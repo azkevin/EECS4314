@@ -22,6 +22,10 @@ for root, dirs, files in os.walk(sys.argv[1], topdown=False):
             for line in lines:
                 if line[:8] == "#include":
                     string = "{} -> {}\n".format(name, line[10:-2])
+                    if string.rfind('"') != -1:
+                        string = string[0:string.rfind('"')]
+                    if (string.rfind('>') != -1) & (string.count('>') > 1):
+                        string = string[0:string.rfind('>')]
                     file_ta.write(string)
 file_ta.close()
 
