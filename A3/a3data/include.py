@@ -17,7 +17,7 @@ file_ta = open(sys.argv[2], "w")
 
 for root, dirs, files in os.walk(sys.argv[1], topdown=False):
     for name in files:
-        if name[-3:] == ".cc" or name[-2:] == ".h":
+        if name[-3:] == ".cc" or name[-2:] == ".h" or name[-2:] == ".c":
             lines = open(os.path.join(root, name), "r")
             for line in lines:
                 if line[:8] == "#include":
