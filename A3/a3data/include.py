@@ -21,11 +21,14 @@ for root, dirs, files in os.walk(sys.argv[1], topdown=False):
             lines = open(os.path.join(root, name), "r")
             for line in lines:
                 if line[:8] == "#include":
-                    string = "{} -> {}\n".format(name, line[10:-2])
+                    left_dependency = os.path.join(root, name).replace('\\', '/')[os.path.join(root, name).find("mysql-server-mysql-8.0.2"):]
+                    string = "{} -> {}\n".format(left_dependency, line[10:-2])
                     if string.rfind('"') != -1:
-                        string = string[0:string.rfind('"')]
+                        string = string[0:string.rfind('"')] + "\n"
                     if (string.rfind('>') != -1) & (string.count('>') > 1):
-                        string = string[0:string.rfind('>')]
+                        string = string[0:string.rfind('>')] + "\n"
+                    if string[string.find('>')+2:-1].find('/') > -1:
+                        string = "{} -> {}\n".format(left_dependency, os.path.basename(os.path.normpath(string[string.find('>')+2:-1])))
                     file_ta.write(string)
 file_ta.close()
 
