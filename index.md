@@ -14,7 +14,7 @@
 ## Assignment 3: Dependency Extraction
 
 - Report: In progress (Nov 20, 2017)
-- Slides: In progress (Nov 15, 2017)
+- Slides: [[PDF]](https://github.com/azkevin/EECS4314/blob/master/A3/EECS4314%20A3%20Slides%20(TabsVsSpaces).pdf) [[PPTX]](https://github.com/azkevin/EECS4314/blob/master/A3/EECS4314%20A3%20Slides%20(TabsVsSpaces).pptx)
 
 ## Assignment 4: Enhancement Proposal
 
