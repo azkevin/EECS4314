@@ -9,7 +9,7 @@
 - Slides: [[PDF]](https://github.com/azkevin/EECS4314/blob/master/A3/EECS4314%20A3%20Slides%20(TabsVsSpaces).pdf) [[PPTX]](https://github.com/azkevin/EECS4314/blob/master/A3/EECS4314%20A3%20Slides%20(TabsVsSpaces).pptx)
 
 - Team Developed Programs: 
-	- [Our Depedency Extraction Script](https://github.com/azkevin/EECS4314/blob/master/A3/a3data/include.py)
+	- [Our Dependency Extraction Script](https://github.com/azkevin/EECS4314/blob/master/A3/a3data/include.py)
 	- [Our Dependency Comparison Script](https://github.com/azkevin/EECS4314/blob/master/A3/a3data/MutualDependnecy.java)
 	- [Our Dependency Comparison jar](https://github.com/azkevin/EECS4314/blob/master/A3/a3data/Mutual_Dependency.jar)
 - Dependency .TA Data Files: 
