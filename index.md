@@ -1,6 +1,6 @@
 ## Assignment 4: Enhancement Proposal
 
-- Report: In progress (Dec 4, 2017)
+- Report: [[PDF]](https://github.com/azkevin/EECS4314/blob/master/A4/EECS4314%20A4%20Report%20(TabsVsSpaces).pdf) [[DOCX]](https://github.com/azkevin/EECS4314/blob/master/A4/EECS4314%20A4%20Report%20(TabsVsSpaces).docx)
 - Slides: [[PDF]](https://github.com/azkevin/EECS4314/blob/master/A4/EECS4314%20A4%20Slides%20(TabsVsSpaces).pdf) [[PPTX]](https://github.com/azkevin/EECS4314/blob/master/A4/EECS4314%20A4%20Slides%20(TabsVsSpaces).pptx)
 
 ## Assignment 3: Dependency Extraction
